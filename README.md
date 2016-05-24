@@ -4,7 +4,7 @@ UglifyJS with Docker
 
 ## Usage
 
-    docker run --rm -v $PWD:$PWD -w $PWD hut6/docker-uglifyjs script1.js script2.js > app.min.js
+    docker run --rm -v $PWD:$PWD -w $PWD hut6/docker-uglifyjs script1.js script2.js --source-map app.js.map > app.min.js
 
 ## Versions
  - 2.6.2
